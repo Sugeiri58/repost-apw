@@ -1,0 +1,55 @@
+.container {
+    width: 300px;
+    padding: 70px 100px;
+    border: black solid 10px; 
+    background-color: aqua;
+    display: none;
+}
+
+#username{
+    font-weight: 800;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: none;
+    border-bottom: 1px solid gray;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.submit {
+    background-color: white;
+    padding: 10px 30px;
+    border: 1px gray solid;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.flexbox{
+    display: flex; 
+    flex-direction: column;
+}
+
+.position{
+    display: none; 
+    flex-direction: row; 
+    height: 300px; 
+    width: 300px; 
+    background-color: black; 
+    justify-content: end;
+    align-items: end;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid 1px black;
+    width: 500px;
+    gap: 10px;
+}
+
+.grid-item{
+    border: solid 1px black;
+}
